@@ -1,0 +1,13 @@
+id              BIGINT            PRIMARY_KEY         AUTO_INCREMENT
+model           VARCHAR(255)      NOTNULL    
+color           VARCHAR(255)      NULL
+optional        BOOLEAN           NULL                DEFAULT(false)
+plate           CHAR(7)           NOT_NULL            UNIQUE
+fuel_type       VARCHAR(255)      NULL
+price           MEDIUMINT         NULL
+kilometer       MEDIUMTEXT        NULL
+owners          TINYINT           NULL
+displacement    SMALLINT          NULL
+horsepower      SMALLINT          NULL
+registration    DATE              NULL
+note            TEXT              NULL
